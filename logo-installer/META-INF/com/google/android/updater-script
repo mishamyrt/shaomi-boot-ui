@@ -1,0 +1,4 @@
+getprop("ro.product.device") == "davinci" || abort("E3004: This package is for \"davinci\" devices; this is a \"" + getprop("ro.product.device") + "\".");
+ui_print("Flashing Boot Logo ...");
+package_extract_file("logo.img", "/dev/block/bootdevice/by-name/logo");
+ui_print("Boot Logo has been flashed successfully!");

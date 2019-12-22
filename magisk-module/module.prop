@@ -1,0 +1,7 @@
+id=watchdogs
+name=Shaomi Boot Animation
+version=v1
+versionCode=1
+author=mishamyrt
+description= Systemless boot animation for the Mi 9T by mishamyrt
+minMagisk=17000
