@@ -24,6 +24,6 @@ output.write(bytearray(header))
 # Write images
 for position in imagePositions:
     output.seek(position['offset'])
-    img = open(join('splash', position['image']), 'rb')
+    img = open(join('splash-images', position['image']), 'rb')
     output.write(img.read())
 
