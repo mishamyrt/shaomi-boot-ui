@@ -11,7 +11,7 @@ bootanimation: dist
 	rm magisk-module/system/media/bootanimation.zip
 
 logo: dist
-	python splash/create-splash.py
+	python create-splash.py
 	mv logo.img logo-installer/
 	cd logo-installer; zip -r shaomi.zip ./*
 	mv logo-installer/shaomi.zip dist/shaomi-logo.zip
